@@ -382,6 +382,16 @@ def WriteFullOTAPackage(input_zip, output_zip):
   device_specific.FullOTA_Assertions()
 
   script.ShowProgress(0.5, 0)
+  script.Print("")
+  script.Print("************************************************")
+  script.Print("*                                              *")
+  script.Print("*           ModAGnex Galaxy Nexus ROM          *")
+  script.Print("*            AOSP Ice Cream Sandwich           *")
+  script.Print("*              Follow me @Deodexed             *")
+  script.Print("*                                              *")
+  script.Print("************************************************")
+  script.Print("")
+  script.Print("Installing your new system files...")
 
   if OPTIONS.wipe_user_data:
     script.FormatPartition("/data")
